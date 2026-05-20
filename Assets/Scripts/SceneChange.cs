@@ -9,10 +9,16 @@ public class SceneChanger : MonoBehaviour
         SceneManager.LoadScene("SampleScene");
     }
 
-    // リザルト（ゲームオーバー）画面へ
-    public void GoToResult()
+    // クリア画面へ
+    public void ClearResult()
     {
-        SceneManager.LoadScene("ResultScene");
+        SceneManager.LoadScene("ClearScene");
+    }
+
+    // ゲームオーバー画面へ
+    public void GameOverResult()
+    {
+        SceneManager.LoadScene("GameOverScene");
     }
 
     // タイトル画面へ戻る
